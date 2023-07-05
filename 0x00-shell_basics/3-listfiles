@@ -1,7 +1,2 @@
 #!/bin/bash
--rwxr-xr-x 1 996 992 16 Jul 5 00:00 0-current_working_directory
--rwxr-xr-x 1 996 992 18 Jul 5 00:00 1-listit
--rwxr-xr-x 1 996 992 17 Jul 5 00:00 2-bring_me_home
 -rwxr-xr-x 1 996 992 18 Jul 5 00:00 3-listfiles
--rw-r--r-- 1 996 992 0 Jul 5 00:00 listfiles
--rw-r--r-- 1 996 992 8 Jul 5 00:00 README.md
