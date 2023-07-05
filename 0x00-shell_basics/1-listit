@@ -1,2 +1,5 @@
 #!/bin/bash
-              games          music          movies             documents
+ls -1 | sed -e 's/\(.*\)/\t\1/'
+
+             
+	            
