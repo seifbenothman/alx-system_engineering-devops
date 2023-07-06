@@ -1,5 +1,2 @@
 #!/bin/bash
-current_dir=$(pwd)
-parent_dir=$(dirname "$current_dir")
-find . -maxdepth 1 -type f -name "*.html" -newer "$parent_dir" -exec cp -u {} "$parent_dir" \;
-cd "$current_dir"
+cp ./*.html ..
