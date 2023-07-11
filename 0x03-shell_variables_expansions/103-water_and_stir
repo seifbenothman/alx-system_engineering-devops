@@ -1,0 +1,3 @@
+#!/bin/bash
+base_bestchol=$(echo "$((${WATER//ewat/0} + ${STIR//stir/0} ))" | awk '{ printf("%d", $0) }' | tr '0123456789' 'bestchol')
+echo "$base_bestchol"
