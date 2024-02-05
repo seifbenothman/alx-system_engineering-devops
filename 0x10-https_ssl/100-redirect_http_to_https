@@ -41,7 +41,7 @@ frontend seif-eddine-ben-othman-frontend
         default_backend seif-eddine-ben-othman-backend
 
 frontend seif-eddine-ben-othman-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/seif-eddine-ben-othman.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.seif-eddine-ben-othman.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend seif-eddine-ben-othman-backend
 
